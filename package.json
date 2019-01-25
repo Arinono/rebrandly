@@ -1,0 +1,15 @@
+{
+  "name": "rebrandly",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Aurelien ARINO",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "hello": "node app.js https://google.com",
+    "build:docker": "docker build -t rebrandly ."
+  }
+}
