@@ -3,7 +3,5 @@
 Shorten links.
 
 ```bash
-$> yarn build:docker
-
-$> docker run -e REBRANDLY_API_KEY=<your-api-key> rebrandly <your-url>
+$> omg exec shorten -a url='<your-url>' -e REBRANDLY_API_KEY='<your-api-key'
 ```
