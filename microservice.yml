@@ -31,4 +31,5 @@ actions:
 
 environment:
   rebrandly_api_key:
+    required: true
     type: string
