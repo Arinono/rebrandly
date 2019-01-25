@@ -1,7 +1,7 @@
 const axios = require('axios')
 const http = require('http')
 
-const API_KEY = process.env.rebrandly_api_key
+const API_KEY = process.env.REBRANDLY_API_KEY
 
 http.createServer((req, res) => {
   let body = ''

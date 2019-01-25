@@ -30,6 +30,6 @@ actions:
       type: string
 
 environment:
-  rebrandly_api_key:
+  REBRANDLY_API_KEY:
     required: true
     type: string
