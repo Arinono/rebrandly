@@ -9,7 +9,6 @@
     "axios": "^0.18.0"
   },
   "scripts": {
-    "hello": "node app.js https://google.com",
     "build:docker": "docker build -t rebrandly ."
   }
 }
